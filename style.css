@@ -1,0 +1,82 @@
+.table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 70vw;
+    height: 40vw;
+    font-size: 25px;
+    border-radius: 50px;
+}
+
+.table td, 
+.table tr {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+ }
+
+ .table thead tr td{
+    padding: 30px;
+}
+
+.table thead tr td:nth-child(1){
+    background-color: #7887ab;
+    color: white;
+}
+
+.table thead tr td:nth-child(2){
+    background-color: #4f628e;
+    color: white;
+}
+
+.table thead tr td:nth-child(3){
+    background-color: #2e4172;
+    color: white;
+}
+
+.table thead tr td:nth-child(4){
+    background-color: #162955;
+    color: white;
+}
+
+.table thead tr td:nth-child(5){
+    background-color: #061539;
+    color: white;
+}
+
+.table tbody tr:nth-child(odd) td:nth-child(odd) { 
+    background:#dbdbdb;
+} 
+
+.table tbody tr:nth-child(odd) td:nth-child(even) {
+    background:#e7e7e7;
+}
+
+.table tbody tr:nth-child(even) td:nth-child(odd) {
+    background:#f3f3f3;
+}
+.table tfoot tr:nth-child(odd) td:nth-child(odd) { 
+    background:#dbdbdb;
+} 
+
+.table tfoot tr:nth-child(odd) td:nth-child(even) {
+    background:#e7e7e7;
+}
+
+.table tfoot tr td{
+    padding: 35px;
+}
+
+.table tfoot tr td a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 10px 40px;
+    font-size: 25px;
+}
+.table tfoot tr td a:hover{
+    background-color: rgb(35, 35, 194);
+    color: white;
+}
+
+
+
